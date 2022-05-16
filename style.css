@@ -24,6 +24,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bolder;
@@ -91,6 +93,7 @@ img {
     display: flex;
     flex-direction: column;
     padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .title2 {
@@ -98,7 +101,6 @@ img {
     color: #1F2937;
     font-size: 48px;
     text-align: center;
-    padding-top: 100px;
 }
 
 .panel {
@@ -119,6 +121,8 @@ img {
     border: 1px solid royalblue;
     margin: 75px;
     margin-bottom: 15px;
+    max-width: 180px;
+    max-height: auto;
 }
 
 .text {
